@@ -44,8 +44,23 @@ public class MovieTheater {
         }
     }
 
+    public boolean reserveSeat(String seat) {
+        if (!isValidSeat(seat)) {
+            System.out.println("Invalid seat. Please try again.");
+            return false;
+        }
+        int row = seat.charAt(0) - 'A';
+        int col = Character.getNumericValue(seat.charAt(1)) - 1;
 
+        if (seats[row][col] == 'X') {
+            System.out.println("Seat " + seat + " is already reserved.");
+            return false;
+        }
 
+        seats[row][col] = 'X';
+        System.out.println("Seat " + seat + " has been reserved successfully.");
+        return true;
+    }
 
 
 
