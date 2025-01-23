@@ -17,6 +17,15 @@ public class MovieTheater {
     }
 
 
+    private void initializeSeats() {
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < seatsPerRow; j++) {
+                seats[i][j] = 'O';
+            }
+        }
+    }
+
+
 
 
 
