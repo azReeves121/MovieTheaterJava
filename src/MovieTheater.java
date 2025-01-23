@@ -25,7 +25,13 @@ public class MovieTheater {
         }
     }
 
-
+    public void displaySeating() {
+        System.out.println("\nSeating Chart:");
+        System.out.print("   "); // Indentation for column numbers
+        for (int i = 0; i < seatsPerRow; i++) {
+            System.out.print((i + 1) + " ");
+        }
+        System.out.println();
 
 
 

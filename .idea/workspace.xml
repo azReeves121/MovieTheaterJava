@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcdd80cc-5ca3-4cfb-81da-e6c14133412d" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/src/MovieTheater.java" afterDir="false" />
+    <list default="true" id="dcdd80cc-5ca3-4cfb-81da-e6c14133412d" name="Changes" comment="initializeSeats method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MovieTheater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieTheater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +57,29 @@
       <option name="project" value="LOCAL" />
       <updated>1737600826268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="constructor">
+      <option name="closed" value="true" />
+      <created>1737601766136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737601766136</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initializeSeats method">
+      <option name="closed" value="true" />
+      <created>1737601929326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737601929326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="constructor" />
+    <MESSAGE value="initializeSeats method" />
+    <option name="LAST_COMMIT_MESSAGE" value="initializeSeats method" />
   </component>
 </project>
