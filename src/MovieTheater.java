@@ -62,7 +62,16 @@ public class MovieTheater {
         return true;
     }
 
+    private boolean isValidSeat(String seat) {
+        if (seat.length() != 2) {
+            return false;
+        }
 
+        char row = seat.charAt(0);
+        char col = seat.charAt(1);
+
+        return row >= 'A' && row < 'A' + rows && col >= '1' && col < '1' + seatsPerRow;
+    }
 
 
 

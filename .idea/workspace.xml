@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcdd80cc-5ca3-4cfb-81da-e6c14133412d" name="Changes" comment=" displaySeating Row labels">
+    <list default="true" id="dcdd80cc-5ca3-4cfb-81da-e6c14133412d" name="Changes" comment="reserveSeat method">
       <change beforePath="$PROJECT_DIR$/src/MovieTheater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieTheater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737602539947</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reserveSeat method">
+      <option name="closed" value="true" />
+      <created>1737602820833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737602820833</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,6 +105,7 @@
     <MESSAGE value="initializeSeats method" />
     <MESSAGE value=" displaySeating method" />
     <MESSAGE value=" displaySeating Row labels" />
-    <option name="LAST_COMMIT_MESSAGE" value=" displaySeating Row labels" />
+    <MESSAGE value="reserveSeat method" />
+    <option name="LAST_COMMIT_MESSAGE" value="reserveSeat method" />
   </component>
 </project>
