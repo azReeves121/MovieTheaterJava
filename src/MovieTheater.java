@@ -73,16 +73,16 @@ public class MovieTheater {
         return row >= 'A' && row < 'A' + rows && col >= '1' && col < '1' + seatsPerRow;
     }
 
-
-
-
-
-
-
-
-
-
-
-
+    public void suggestAvailableSeat() {
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < seatsPerRow; j++) {
+                if (seats[i][j] == 'O') {
+                    System.out.println("Suggested seat: " + (char) ('A' + i) + (j + 1));
+                    return;
+                }
+            }
+        }
+        System.out.println("Sorry, no available seats left.");
+    }
 
 }
