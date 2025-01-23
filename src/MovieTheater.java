@@ -84,5 +84,25 @@ public class MovieTheater {
         }
         System.out.println("Sorry, no available seats left.");
     }
+    public boolean cancelSeat(String seat) {
+        if (!isValidSeat(seat)) {
+            System.out.println("Invalid seat. Please try again.");
+            return false;
+        }
+
+        int row = seat.charAt(0) - 'A';
+        int col = Character.getNumericValue(seat.charAt(1)) - 1;
+
+        if (seats[row][col] == 'O') {
+            System.out.println("Seat " + seat + " is not reserved.");
+            return false;
+        }
+
+        seats[row][col] = 'O';
+        System.out.println("Reservation for seat " + seat + " has been cancelled.");
+        return true;
+    }
+
+
 
 }
