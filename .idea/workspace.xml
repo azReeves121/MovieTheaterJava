@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcdd80cc-5ca3-4cfb-81da-e6c14133412d" name="Changes" comment="isValidSeat method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MovieTheater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieTheater.java" afterDir="false" />
-    </list>
+    <list default="true" id="dcdd80cc-5ca3-4cfb-81da-e6c14133412d" name="Changes" comment="suggestAvailableSeat method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737603412010</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="suggestAvailableSeat method">
+      <option name="closed" value="true" />
+      <created>1737603735189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737603735189</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,6 +121,7 @@
     <MESSAGE value=" displaySeating Row labels" />
     <MESSAGE value="reserveSeat method" />
     <MESSAGE value="isValidSeat method" />
-    <option name="LAST_COMMIT_MESSAGE" value="isValidSeat method" />
+    <MESSAGE value="suggestAvailableSeat method" />
+    <option name="LAST_COMMIT_MESSAGE" value="suggestAvailableSeat method" />
   </component>
 </project>
